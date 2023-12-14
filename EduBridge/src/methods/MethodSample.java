@@ -1,20 +1,20 @@
 package methods;
 
-
-public class MethodDemo {
+public class MethodSample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		sum();
 		close();
+		
 	}
 	public static void sum()
 	{
-		
+		System.out.println("doing sum operation");
 	}
-	public static int close()
+	public static void close()
 	{
-		System.out.println();
-		return 0;
+		System.out.println("closing sum operation");
 	}
 }

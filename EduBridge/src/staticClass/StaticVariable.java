@@ -1,6 +1,6 @@
-package staticMembers;
+package staticClass;
 
-import staticMembers.staticexample;
+import staticClass.staticexample;
 
 class staticexample
 {
@@ -14,7 +14,7 @@ class staticexample
 	{
 		System.out.println("x=" +x + "y=" + y);
 	}
-
+}
 	public class StaticVariable {
 
 		public static void main(String[] args) {
@@ -31,5 +31,5 @@ class staticexample
 
 		}
 
-	}
+	
 }
